@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact and Feedback Page</title>
+<link rel="stylesheet" href="contactUs.css">
+</head>
+<body>
+
+<h1>Contact Us</h1>
+
+<form action="/submit_contact_form" method="post">
+  <label for="name">Your Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+  
+  <label for="email">Your Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+  
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+  
+  <h2>Feedback</h2>
+
+  <label>Feedback Type:</label><br>
+  <input type="checkbox" name="feedback" value="comment">Excellent<br>
+  <input type="checkbox" name="feedback" value="question">Very Good<br>
+  <input type="checkbox" name="feedback" value="suggestion">Good<br>
+  <input type="checkbox" name="feedback" value="complaint">Very Bad<br>
+  <input type="checkbox" name="feedback" value="complaint">Bad<br>
+
+  <label for="feedback">Would you like to provide feedback about our website?</label>
+  <input type="checkbox" id="feedback" name="feedback"><br><br>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form><br><br>
+
+<div class="social-icons">
+    <a href="https://facebook.com/yourpage"><img src="facebook-logo.png" alt="Facebook"></a>
+    <a href="https://twitter.com/yourpage"><img src="twitter-logo.png" alt="Twitter"></a>
+    <!-- Add more social media icons as needed -->
+</div>
+
+<script src="contactUs.js"></script>
+</body>
+</html>
