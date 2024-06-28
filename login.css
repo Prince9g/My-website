@@ -42,7 +42,15 @@ a {
 	text-decoration: none;
 	margin: 15px 0;
 }
-
+button > a{
+	border-radius: 20px;
+	border: 1px solid: rgb(30, 144, 255);
+	background-color: rgb(30, 144, 255);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+}
 button {
 	border-radius: 20px;
 	border: 1px solid: rgb(30, 144, 255);
@@ -223,29 +231,4 @@ input {
 	margin: 0 5px;
 	height: 40px;
 	width: 40px;
-}
-
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
 }
