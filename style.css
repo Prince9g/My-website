@@ -42,8 +42,8 @@ nav{
 .nav2 ul li {
     padding: 5px 10px;
     border: 1px solid rgba(0, 0, 0, 0.774);
+    border-radius:20px;
     color: #000000bb;
-    border-radius:50px;
     font-weight: 500;
     font-size: 18px;
     position: relative;
@@ -64,6 +64,13 @@ nav{
 .nav2 ul li:hover::after{
     bottom: 0;
     border-radius: 0;
+}
+.filechoose{
+    background-color: rgb(88, 125, 143);
+    width: 30%;
+}
+.filechoose:hover{
+    
 }
 .nav2 ul li a{
     color: #000000bb;
